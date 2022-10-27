@@ -76,7 +76,7 @@ const AddProduct = ()  => {
 
 
     const successMessage = () => (
-        <div className="alert alert-success mt-3" style={{display: createProduct ? "" : "none"}}>
+        <div className="alert alert-success mt-3" style={{display: createdProduct ? "" : "none"}}>
             <h4>{createdProduct} created Successfully!</h4>
         </div>
     )
@@ -160,6 +160,7 @@ const AddProduct = ()  => {
             Create Product
           </button>
         </form>
+        
       );
 
   return (
